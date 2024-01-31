@@ -1,0 +1,279 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset some default styles and apply a basic styling for the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Container styles for the entire page */
+.about-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+/* Assuming CustomNavBar styles are handled within the component */
+
+/* Hero section styles */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  flex: 1;
+  /* Add styling for the hero image if needed */
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-headline {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.hero-subheadline {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Founder section styles */
+.founder-section {
+  margin-bottom: 30px;
+}
+
+.founder-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.founder-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.founder-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.founder-content p {
+  font-size: 1em;
+  color: #555;
+}
+
+.founder-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Mission section styles */
+.mission-section {
+  margin-bottom: 30px;
+}
+
+.mission-content {
+  padding: 20px;
+}
+
+.mission-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.mission-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission-item {
+  flex: 1;
+  text-align: center;
+}
+
+.mission-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mission-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mission-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Differentiators section styles */
+.differentiators-section {
+  margin-bottom: 30px;
+}
+
+.differentiators-content {
+  padding: 20px;
+}
+
+.differentiators-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.differentiators-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.differentiators-item {
+  flex: 1;
+  text-align: center;
+}
+
+.differentiators-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.differentiators-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.differentiators-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Team section styles */
+.team-section {
+  margin-bottom: 30px;
+}
+
+.team-content {
+  padding: 20px;
+}
+
+.team-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Testimonials section styles */
+.testimonials-section {
+  margin-bottom: 30px;
+}
+
+.testimonials-content {
+  padding: 20px;
+}
+
+.testimonials-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.testimonial-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Future section styles */
+.future-section {
+  margin-bottom: 30px;
+}
+
+.future-content {
+  padding: 20px;
+}
+
+.future-content h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.future-content p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.future-image {
+  /* Add styling for the future image if needed */
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
