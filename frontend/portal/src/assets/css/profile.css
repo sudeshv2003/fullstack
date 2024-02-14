@@ -1,0 +1,148 @@
+.app_profile {
+    font-family: 'Playfair Display', serif;
+  }
+ /* CSS for user card */
+.user-section_profile {
+    padding: 20px;
+  }
+  
+  .user-card_profile {
+    background-color: rgba(245, 245, 245, 0.111);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px; /* Limit the width of the card */
+    margin: 20px auto; /* Center the card horizontally */
+  }
+  
+  .user-image_profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-details_profile {
+    flex-grow: 1;
+  }
+  
+  .user-name_profile {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+ 
+/* Add custom CSS to style the CustomNavBar */
+.custom-navbar {
+  z-index: 1; /* Ensure the navbar appears above other content */
+}
+
+/* Updated styling for the header_profile */
+.header_profile {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0; /* Lower z-index to allow other content to overlap */
+}
+
+/* Updated styling for the main_profile */
+.main_profile {
+  padding: 20px;
+  background-image: url('../images/dd1.png');
+  background-color: black;
+  display: flex; /* Make the main_profile a flex container */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: space-between; /* Space items evenly */
+}
+
+/* Updated styling for the section_profile */
+.section_profile {
+  margin-bottom: 20px;
+  width: calc(50% - 10px); /* Set width to 50% minus margin */
+}
+
+/* Adjusted card_profile width for smaller screens */
+@media (max-width: 768px) {
+  .card_profile {
+    width: 100%; /* Set card width to 100% for smaller screens */
+  }
+}
+  .user-email_profile,
+  .user-age_profile,
+  .user-country_profile,
+  .user-occupation_profile,
+  .user-interests_profile {
+    margin: 5px 0;
+    color: #666;
+  }
+   
+  .header_profile {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile_profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .main_profile {
+    padding: 20px;
+    background-image: url('../images/dd1.png'); /* Add your background image URL here */
+    background-color: black; /* Fallback background color */
+  }
+  
+  .section_profile {
+    margin-bottom: 20px;
+  }
+  
+  .h2_profile {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Algerian', cursive;
+    color: white; /* Text color */
+  }
+  
+  .card-container_profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card_profile {
+    background-color: rgba(245, 245, 245, 0.111); /* Card background color */
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(33.333% - 10px);
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .card_profile:hover {
+    transform: translateY(-5px); /* Move the card up on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  }
+  
+  .h3_profile {
+    margin-top: 0;
+  }
+  
+  .p_profile {
+    color: #e1dbdb; /* Text color */
+  }
+  
+  .footer_profile {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
