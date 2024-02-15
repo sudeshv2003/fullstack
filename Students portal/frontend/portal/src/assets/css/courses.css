@@ -1,0 +1,99 @@
+/* courses.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+.courses-page_course {
+  text-align: center;
+}
+
+/* Hero Banner */
+.hero-banner_course {
+  background-color: #010508;
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
+}
+
+.headline_course {
+  font-size: 2.5em;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Course Categories */
+.course-categories_course {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Category */
+.category_course {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.category_course:hover {
+  transform: scale(1.05);
+}
+
+.category-title_course {
+  background-color: #010609;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+/* Course Card */
+.course_course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.course-details_course {
+  text-align: center;
+}
+
+.course-details_course h3 {
+  color: #333;
+}
+
+.course-details_course p {
+  color: #555;
+}
+
+.cta-button_course {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button_course:hover {
+  background-color: #c0392b;
+}
+
+/* Image Styling */
+.course_course img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
